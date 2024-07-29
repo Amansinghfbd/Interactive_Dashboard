@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.dashboard,
+.settings {
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .dashboard,
+  .settings {
+    padding: 10px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  table,
+  th,
+  td {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .dashboard,
+  .settings {
+    padding: 5px;
+  }
+}
